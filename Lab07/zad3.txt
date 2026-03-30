@@ -1,0 +1,6 @@
+telnet poczta.interia.pl 110
+USER pas2017@interia.pl
+PASS P4SInf2017
+LIST
+# pokazalo sie wszystkie 17 wiadomosci i rozmiar kazdej z osobna obok numeru.
+QUIT

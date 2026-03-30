@@ -1,0 +1,7 @@
+telnet poczta.interia.pl 110
+USER pas2017@interia.pl
+PASS P4SInf2017
+# w liscie widzialem ze np 11 ma najmniej wiec wpisalem
+DELE 11
+# skasowalo ja z serwera
+QUIT

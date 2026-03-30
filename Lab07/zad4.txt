@@ -1,0 +1,7 @@
+telnet poczta.interia.pl 110
+USER pas2017@interia.pl
+PASS P4SInf2017
+# z listy najwieksza byla nr 17 wic
+RETR 17
+# wyswietlilo mi tresc i naglowki giganta
+QUIT

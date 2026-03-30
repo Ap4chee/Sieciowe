@@ -1,0 +1,12 @@
+import socket
+s = socket.socket()
+s.connect(('poczta.interia.pl', 110))
+print(s.recv(1024))
+s.send(b'USER pas2017@interia.pl\r\n')
+print(s.recv(1024))
+s.send(b'PASS P4SInf2017\r\n')
+print(s.recv(1024))
+s.send(b'STAT\r\n')
+odp = s.recv(1024).decode()
+print(odp)
+s.send(b'QUIT\r\n')

@@ -1,0 +1,8 @@
+tutaj to samo tylko pomnozone. Po MAIL FROM daje dwa razy RCPT TO do dwoch kolesi.
+EHLO ... AUTH ... MAIL FROM ...
+RCPT TO: <jeden>
+RCPT TO: <drugi>
+DATA
+cokolwiek
+.
+QUIT

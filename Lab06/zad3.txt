@@ -1,0 +1,2 @@
+spoofing. wpisuje to samo ale w MAIL FROM podaje zupelnie inny mail w DATA w polu From tez wpisuje np donaldtusk@gov.pl
+i normalne idzie i wyglada legitnie

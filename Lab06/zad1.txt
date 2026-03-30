@@ -1,0 +1,10 @@
+telnet poczta.interia.pl 587
+EHLO comp
+AUTH LOGIN
+... wpisuje base64 loginu i hasla...
+MAIL FROM: <mojmail>
+RCPT TO: <innymail>
+DATA
+czesc poszlo to jest mail
+.
+QUIT

@@ -1,0 +1,2 @@
+tutaj robilem z obrazkiem. tak samo openssl base64 na obrazku i skopiowane jako Content-Transfer-Encoding: base64 i Content-Type: image/png.
+Zadzialalo ale dlugie.

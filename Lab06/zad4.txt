@@ -1,0 +1,3 @@
+zrobilem plik tekst.txt, walnalem cat tekst.txt | openssl base64
+skopiowalem do schowka i w DATA po MIME-Version wpisalem to cale jako Content-Transfer-Encoding: base64.
+szlo pol godziny ale wyslane jako zalacznik.

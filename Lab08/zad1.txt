@@ -1,0 +1,8 @@
+telnet 212.182.24.27 143
+A1 LOGIN pasinf@infumcs.edu P4SInf2017
+A2 STATUS Inbox (MESSAGES)
+A3 SELECT Inbox
+A4 FETCH 1 BODY[TEXT]
+A5 STORE 1 +FLAGS (\Seen)
+# ustawione jako przeczytane
+A6 LOGOUT
